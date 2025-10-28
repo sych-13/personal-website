@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Webpage</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navibar section-content">
+            <a href="#" class="logo">JM</a>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#me">Me</a></li>
+            </ul>
+        </nav>
+        </header>
+<section class="home" id="home">
+    <div class="home-info">
+            <h3>Hello,</h3><h1>I'm <span>JM</span></h1>
+            <h2>WELCOME TO MY PEROSAL WEBPAGE</h2>
+            <p>This is my personal webpage that show all my activity in WS1</p>
+            <div class="btn-sci">
+                <a href="#me" class="btn">LEARN ABOUT ME</a>
+                <div class="sci">
+                    <a href="https://www.facebook.com/jm.manlapaz.585"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class=" project" id="project">
+    <div class="container">
+        <h2>PROJECT</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 132326.png" alt="act1">
+                <h3>LYRICS</h3>
+                <p>Simple lyrics display using HTML</p>
+                <a href="LYRICS.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 132613.png" alt="act2">
+                <h3>LYRICS 2</h3>
+                <p>Simple lyrics display using HTML</p>
+                <a href="LYRICS2.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 133853.png" alt="act3">
+                <h3>PORTFOLIO</h3>
+                <p>Sample of portfolio layout and information</p>
+                <a href="portfolio.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 134130.png" alt="act4">
+                <h3>META TAGS</h3>
+                <p>using alink in HTML that connected to facebook</p>
+                <a href="metatags.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 134536.png" alt="act5">
+                <h3>TABLE</h3>
+                <p>Using tr and td to make table in HTML</p>
+                <a href="ORF table.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 134555.png" alt="act6">
+                <h3>LIST</h3>
+                <p>Using ordered and unordered list in HTML</p>
+                <a href="HTMLlist.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 134620.png" alt="act7">
+                <h3>TERMS</h3>
+                <p>Using definition list in HTML</p>
+                <a href="TERMS.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 135821.png" alt="act18">
+                <h3>FRONT PAGE</h3>
+                <p>Sample of simple layout of Front Page</p>
+                <a href="FRONTPAGE.html" class="btn">CLICK</a>
+            </div>
+
+            <div class="card">
+                <img src="Screenshot 2024-10-31 140227.png" alt="act9">
+                <h3>FRAMESET</h3>
+                <p>Sample of how to use Frameset</p>
+                <a href="FRAMESET.html" class="btn">CLICK</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="me" id="me">
+    <div class="me-container">
+        <div class="card-container">
+            <div class="card">
+                <img src="462545621_550543051223697_2513260385343924824_n.jpg" alt="dsad">
+                <h3>Jhon Mak M. Tiosayco</h3>
+                <p>19 yrs old <br> 
+                BSIT in ICCT Colleges</p>
+                <a href="https://www.facebook.com/jm.manlapaz.585" class="me-btn">CONTACT ME</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</footer>
+</body>
+</html>
