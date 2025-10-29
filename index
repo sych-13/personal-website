@@ -1,125 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Webpage</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
+  <!-- Basic SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jhonmark — Portfolio</title>
+  <meta name="description" content="Jhonmark's portfolio showcasing projects, skills, résumé, and contact information. Responsive, accessible, and fast.">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Jhonmark — Portfolio">
+  <meta property="og:description" content="Projects with tech stacks, live demos, GitHub links, résumé, and contact.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://yourdomain.com/">
+
+  <!-- Icons / Fonts -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navibar section-content">
-            <a href="#" class="logo">JM</a>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#me">Me</a></li>
-            </ul>
-        </nav>
-        </header>
-<section class="home" id="home">
-    <div class="home-info">
-            <h3>Hello,</h3><h1>I'm <span>JM</span></h1>
-            <h2>WELCOME TO MY PEROSAL WEBPAGE</h2>
-            <p>This is my personal webpage that show all my activity in WS1</p>
-            <div class="btn-sci">
-                <a href="#me" class="btn">LEARN ABOUT ME</a>
-                <div class="sci">
-                    <a href="https://www.facebook.com/jm.manlapaz.585"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
-                </div>
-            </div>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header & Primary Navigation -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a class="logo" href="#home" aria-label="Go to Home">Jhonmark</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class='bx bx-menu'></i>
+      </button>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-</section>
+  </header>
 
-<section class=" project" id="project">
-    <div class="container">
-        <h2>PROJECT</h2>
-
-        <div class="card-container">
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 132326.png" alt="act1">
-                <h3>LYRICS</h3>
-                <p>Simple lyrics display using HTML</p>
-                <a href="LYRICS.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 132613.png" alt="act2">
-                <h3>LYRICS 2</h3>
-                <p>Simple lyrics display using HTML</p>
-                <a href="LYRICS2.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 133853.png" alt="act3">
-                <h3>PORTFOLIO</h3>
-                <p>Sample of portfolio layout and information</p>
-                <a href="portfolio.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 134130.png" alt="act4">
-                <h3>META TAGS</h3>
-                <p>using alink in HTML that connected to facebook</p>
-                <a href="metatags.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 134536.png" alt="act5">
-                <h3>TABLE</h3>
-                <p>Using tr and td to make table in HTML</p>
-                <a href="ORF table.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 134555.png" alt="act6">
-                <h3>LIST</h3>
-                <p>Using ordered and unordered list in HTML</p>
-                <a href="HTMLlist.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 134620.png" alt="act7">
-                <h3>TERMS</h3>
-                <p>Using definition list in HTML</p>
-                <a href="TERMS.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 135821.png" alt="act18">
-                <h3>FRONT PAGE</h3>
-                <p>Sample of simple layout of Front Page</p>
-                <a href="FRONTPAGE.html" class="btn">CLICK</a>
-            </div>
-
-            <div class="card">
-                <img src="Screenshot 2024-10-31 140227.png" alt="act9">
-                <h3>FRAMESET</h3>
-                <p>Sample of how to use Frameset</p>
-                <a href="FRAMESET.html" class="btn">CLICK</a>
-            </div>
+  <main id="main">
+    <!-- Home (Hero) -->
+    <section id="home" class="home section" aria-label="Hero">
+      <div class="home-info">
+        <h1>Hello, I’m <span>Jhonmark</span></h1>
+        <h2>Welcome to my personal portfolio</h2>
+        <p>I build clean, responsive pages and practical projects. Explore my work, résumé, and get in touch.</p>
+        <div class="btn-sci">
+          <a href="#projects" class="btn">View Projects</a>
+          <div class="sci" aria-label="Social links">
+            <a href="https://www.facebook.com/jm.manlapaz.585" target="_blank" rel="noopener" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="mailto:jmtiosayco9963@gmail.com" target="_blank" rel="noopener" aria-label="Gmail"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/sych-13" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+      <div class="home-image">
+        <img src="jmprofile.jpg"
+             alt="Portrait of Jhonmark smiling"
+             width="350" height="350"
+             loading="eager">
+      </div>
+    </section>
 
-<section class="me" id="me">
-    <div class="me-container">
-        <div class="card-container">
-            <div class="card">
-                <img src="462545621_550543051223697_2513260385343924824_n.jpg" alt="dsad">
-                <h3>Jhon Mak M. Tiosayco</h3>
-                <p>19 yrs old <br> 
-                BSIT in ICCT Colleges</p>
-                <a href="https://www.facebook.com/jm.manlapaz.585" class="me-btn">CONTACT ME</a>
-            </div>
+    <!-- About -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            Hi, I’m Jhonmark, BSIT student at ICCT Colleges. I enjoy learning HTML, CSS, 
+            JavaScript, and I’m focused on building responsive, accessible, and fast websites.
+          </p>
+
+          <!-- Skills with logos -->
+          <ul class="skills-logos" aria-label="Skills">
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo">
+              <span>HTML5</span>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Logo">
+              <span>CSS3</span>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo">
+              <span>Python</span>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo">
+              <span>Java</span>
+            </li>
+          </ul>
         </div>
-    </div>
-</section>
 
-</footer>
+        <figure>
+          <img src="jmprofile.jpg"
+               alt="Formal profile photo of Jhonmark"
+               width="240" height="240"
+               loading="lazy">
+          <figcaption>Based in Rizal, Philippines</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <p class="section-subtitle">Each card includes a title, description, tech stack, and links to the live demo and GitHub repository.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" aria-labelledby="p1-title">
+          <header>
+            <h3 id="p1-title">Random Quote</h3>
+            <img src="random.png" alt="proc1">
+            <p class="project-desc">A motivational web app that displays an inspiring quote each time you click the button. Perfect for quick boosts of positivity, featuring a clean design and dynamic background for an uplifting experience.</p>
+          </header>
+          <div class="tech-stack" aria-label="Technology stack">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-live" href="RandomQuote.html" target="_blank" rel="noopener">Live demo</a>
+            <a class="btn btn-github" href="https://github.com/sych-13/compileproject" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+        <!-- Project 2 -->
+        <article class="project-card" aria-labelledby="p2-title">
+          <header>
+            <h3 id="p2-title">NumberGuess</h3>
+            <img src="guess.png" alt="proc2">
+            <p class="project-desc">A fun and interactive mini-game where the player tries to guess a random number between 1 and 10. The app gives instant feedback — “too high,” “too low,” or “correct!” — making it a simple yet engaging test of luck and logic.</p>
+          </header>
+          <div class="tech-stack" aria-label="Technology stack">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-live" href="numguess.html" target="_blank" rel="noopener">Live demo</a>
+            <a class="btn btn-github" href="https://github.com/sych-13/compileproject" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" aria-labelledby="p3-title">
+          <header>
+            <h3 id="p3-title">Calculator</h3>
+            <img src="calculator.png" alt="proc3">
+            <p class="project-desc">A sleek and interactive calculator that performs basic arithmetic operations. With a glowing modern UI, smooth animations, and real-time results, it’s a stylish and functional web-based tool for quick calculations.</p>
+          </header>
+          <div class="tech-stack" aria-label="Technology stack">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-live" href="calculator.html" target="_blank" rel="noopener">Live demo</a>
+            <a class="btn btn-github" href="https://github.com/sych-13/compileproject" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+          <!-- Project 4 -->
+        <article class="project-card" aria-labelledby="p4-title">
+          <header>
+            <h3 id="p4-title">Dashboard</h3>
+            <img src="dashboard.PNG" alt="proc4">
+            <p class="project-desc">A web-based healthcare system dashboard designed to manage patient records, appointments, and medical data. It features a clean interface, responsive layout, 
+              and dynamic components for real-time monitoring and efficient healthcare administration.</p>
+          </header>
+          <div class="tech-stack" aria-label="Technology stack">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+            <span class="badge">PHP</span>
+            <span class="badge">MYSQL</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-live" href="http://www.healthcaredb.free.nf" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </article>
+      </div> <!-- end .projects-grid -->
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section" aria-labelledby="resume-title">
+      <h2 id="resume-title">Resume</h2>
+      <p>Download the PDF or open it in your browser.</p>
+      <div class="resume-actions">
+        <a class="btn" href="Jhonmark-Resume.pdf" download="Jhonmark-Resume.pdf">
+          <i class='bx bxs-download'></i> Download CV
+        </a>
+        <a class="btn btn-live" href="Jhonmark-Resume.pdf" target="_blank" rel="noopener">
+          <i class='bx bxs-file-pdf'></i> Open in browser
+        </a>
+      </div>
+
+      <div class="resume-summary">
+        <ul>
+          <li><strong>Education:</strong> BSIT, ICCT Colleges</li>
+          <li><strong>Focus:</strong> Responsive web design, accessibility, performance</li>
+          <li><strong>Tools:</strong> HTML, CSS, JavaScript, Git/GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Send me a message. I’ll reply via email.</p>
+
+      <form action="https://formspree.io/f/manloglk" method="POST" class="contact-form" novalidate>
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="_replyto" type="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <!-- Basic spam mitigation -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-alt">
+        <p>Or email me at 
+          <a style="color: #219fe7;" href="mailto:jmtiosayco9963@gmail.com">
+            jmtiosayco9963@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <small>© 2025 Jhonmark. All rights reserved.</small>
+  </footer>
+
+  <!-- Accessibility helper: focus outline for keyboard users -->
+  <script>
+    (function() {
+      function handleFirstTab(e) {
+        if (e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing');
+          window.removeEventListener('keydown', handleFirstTab);
+        }
+      }
+      window.addEventListener('keydown', handleFirstTab);
+    })();
+  </script>
+
+  <!-- Main interactivity -->
+  <script src="script.js" defer></script>
 </body>
 </html>
